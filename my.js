@@ -52,7 +52,7 @@ while(num <100)
 
 //let name = "shehan";
 //let num = 5;
-let fullName = {firstName:"shehan",lastName: "sandeepa"}; //object
+//let fullName = {firstName:"shehan",lastName: "sandeepa"}; //object
 let show = true;
 let array = [1,2,3,4]; //array
 let age; //undefined
@@ -67,6 +67,35 @@ console.log(name.slice(2,5));
 console.log(name.replace("han","000"));
 console.log(name.toUpperCase());
 console.log(name.split("a"));
+
+var names = ["shehan","sandeepa","shamali", "kasun","rashmika","boooo"];
+var numbers = [1,2,3,4];
+
+
+console.log(names.pop());
+console.log(names.push("vista"), names);
+names.shift(); //this is remove first element in arry
+names.unshift("btuuuuu");
+console.log(names);
+
+var mix = names.concat(numbers);
+console.log(mix);
+
+//object***********************************************************************
+
+let fullName = {
+    firstName:"shehan",
+    lastName: "sandeepa",
+    full: function()
+    {
+        return this.firstName +" "+this.lastName;
+    }
+};
+
+console.log(fullName.full());
+
+
+
 
 
 
