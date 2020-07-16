@@ -1,0 +1,22 @@
+.container-1
+{
+    border: 3px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flexbox-1
+{
+   display: flex;
+   flex-wrap: wrap;
+  
+   justify-content: space-around;
+   padding: 50px;
+   
+}
+.flexbox-1 img
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
