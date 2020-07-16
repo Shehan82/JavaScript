@@ -25,4 +25,26 @@ function sum(n1,n2)
     alert(result);
 }
 
-sum(10,20);
+//sum(10,20);
+
+// loooooooooooooops************************************************************
+
+var num = 0;
+var dis="";
+
+while(num <100)
+{
+   dis = dis + num + "<br>";
+   num++;
+}
+document.getElementById("first").innerHTML=dis;
+
+// var i;
+// var text = "";
+// var names = ["shehan","sandeepa","shamali", "kasun","rashmika"];
+// for(i=0; i<names.length; i++)
+// {
+//     text = text + names[i] + "<br>";
+// }
+// document.getElementById("first").innerHTML=text;
+
