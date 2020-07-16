@@ -37,7 +37,7 @@ while(num <100)
    dis = dis + num + "<br>";
    num++;
 }
-document.getElementById("first").innerHTML=dis;
+//document.getElementById("first").innerHTML=dis;
 
 // var i;
 // var text = "";
@@ -47,4 +47,27 @@ document.getElementById("first").innerHTML=dis;
 //     text = text + names[i] + "<br>";
 // }
 // document.getElementById("first").innerHTML=text;
+
+// data types********************************************************************
+
+//let name = "shehan";
+//let num = 5;
+let fullName = {firstName:"shehan",lastName: "sandeepa"}; //object
+let show = true;
+let array = [1,2,3,4]; //array
+let age; //undefined
+
+//Strings in JS*****************************************************************
+
+let moreCars = "Tesl\naudi"; //new line
+let name = "shehansandeepa";
+let r = name.indexOf('h');
+console.log(r);
+console.log(name.slice(2,5));
+console.log(name.replace("han","000"));
+console.log(name.toUpperCase());
+console.log(name.split("a"));
+
+
+
 
