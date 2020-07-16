@@ -10,3 +10,19 @@ console.log(b);
 
 var num = 5.2;
 console.log(2*num);
+
+//functions
+
+function fun()
+{
+    var name = prompt("Enter your name : ");
+    alert("Your name is : " + name);
+}
+
+function sum(n1,n2)
+{
+    var result = n1 + n2;
+    alert(result);
+}
+
+sum(10,20);
