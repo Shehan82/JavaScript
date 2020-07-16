@@ -1,0 +1,41 @@
+td
+{
+    text-align: center;
+}
+table, td
+{
+    border: 2px solid black;
+}
+table
+{
+    border-collapse: collapse;
+    margin: auto;
+    width: 75%;
+}
+.t1
+{
+    height: 100px;
+}
+.t2
+{
+    height: 80px;
+}
+.t3
+{
+    height: 100px;
+}
+#b1
+{
+    margin-right: 100px;
+    font-size: 20px;
+}
+#b2
+{
+    margin-left: 100px;
+    font-size: 20px;
+}
+#myinput
+{
+    width: 100px;
+    height: 42px;
+}
