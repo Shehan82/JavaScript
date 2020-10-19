@@ -26,7 +26,22 @@ class set
     }
 }
 
-const newSet = new set([1,2,3,4]);
-newSet.add(5);
-newSet.delete(3)
-console.log(newSet)
+class Car
+{
+    constructor(carName, year)
+    {
+        this.carName = carName;
+        this.year = year;
+    }
+
+    age(x)
+    {
+        console.log(x - this.year);
+    }
+}
+
+var date = new Date();
+let year = date.getFullYear();
+const car1 = new Car("Tesla", 2002);
+
+car1.age(year);
