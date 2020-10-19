@@ -40,8 +40,28 @@ class Car
     }
 }
 
-var date = new Date();
-let year = date.getFullYear();
-const car1 = new Car("Tesla", 2002);
+class dCar extends Car
+{
+    constructor(carName, year, color)
+    {
+        super(carName, year);
+        // super(year);
+        this.color = color;
+    }
 
-car1.age(year);
+    show()
+    {
+       return console.log("This is " + this.carName + " with color " + this.color + ". model year is " + this.year);
+    }
+
+}
+
+// var date = new Date();
+// let year = date.getFullYear();
+// const car1 = new Car("Tesla", 2002);
+
+// car1.age(year);
+
+var mycar = new dCar("Tesla", 2020, "cute white");
+
+mycar.show();
