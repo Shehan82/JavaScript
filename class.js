@@ -49,6 +49,11 @@ class dCar extends Car
         this.color = color;
     }
 
+    static staticFun()
+    {
+        console.log("hello, this is a static function");
+    }
+
     show()
     {
        return console.log("This is " + this.carName + " with color " + this.color + ". model year is " + this.year);
@@ -65,3 +70,5 @@ class dCar extends Car
 var mycar = new dCar("Tesla", 2020, "cute white");
 
 mycar.show();
+
+dCar.staticFun();
