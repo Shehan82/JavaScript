@@ -1,5 +1,7 @@
-$(document).ready(function(){
-    $("button").click(function(){
-      $("p").hide();
+$(document).ready(function()
+{
+    $("#check").click(function()
+    {
+        $("h2").hide();
     });
-  });
+});
