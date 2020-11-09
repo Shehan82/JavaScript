@@ -8,8 +8,29 @@ $(document).ready(function()
 
 $(document).ready(function()
 {
-    $("#p2").click(function()
+    $("#p2").mousedown(function()
     {
-        $("#p1").hide();
+        alert("20000");
     });
 });
+
+$(document).ready(function()
+{
+    $("input").focus(function()
+    {
+        $(this).css("background-color", "yellow");
+    });
+});
+
+$.get("addServlet", function(responseJson) {
+   var name
+});
+
+$(document).ready(function()
+{
+    $.get("addServlet", function(responseJson) {
+        var name = responseJson;
+        console.log(typeof(name));
+     });
+});
+
